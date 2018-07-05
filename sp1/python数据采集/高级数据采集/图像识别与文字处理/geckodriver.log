@@ -1,0 +1,15 @@
+1520930588671	geckodriver	INFO	geckodriver 0.19.1
+1520930588742	geckodriver	INFO	Listening on 127.0.0.1:56771
+1520930592049	mozrunner::runner	INFO	Running command: "E:\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.MsKhCIo8GdpG"
+1520930593806	Marionette	INFO	Enabled via --marionette
+1520930597869	Marionette	INFO	Listening on port 56780
+1520930597980	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 8724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520930812115	geckodriver::marionette	ERROR	Failed to kill browser process
