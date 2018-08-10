@@ -12,7 +12,7 @@ headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1;WOW64; rv:58.0) Gecko/20100
 #1,模仿浏览器
 driver = webdriver.Firefox()
 #开始遍历页数1-95
-fanwei = range(1,2)
+fanwei = range(1,5)
 for i in fanwei:
 #2，URL
 	url = ("http://www.jandan.net/ooxx/page-%s#comments" %i)

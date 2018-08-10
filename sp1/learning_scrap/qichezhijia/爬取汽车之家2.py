@@ -21,6 +21,7 @@ for i in fanwei:
 			continue
 		print("===============")#每个li之间都有分隔符
 		summary = li.find("p").text
+		print(summary)
 		#print(title.text,summary)#标题和简介
 		#接下来是URL超链接，与标题和简介的text不同，这里的URL是属性
 		#在这里URL在a标签,href属性中

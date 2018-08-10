@@ -5,10 +5,10 @@
 #基本数字类型
 #字符串只有加减
 #数字有加减乘除
-# print(39//8) #4 取得是整除
-# print(39%8)#取的是余数
-# print(3**2)#取得是平方
-# print(3**3)#取得是立方
+print(39//8) #4 取得是整除
+print(39%8)#取的是余数
+print(3**2)#取得是平方
+print(3**3)#取得是立方
 
 #while循环
 #以下是个死循环
@@ -89,5 +89,5 @@ while n < 4:
 		print("welcome " + name)
 		break
 	else:
-		"you're wrong,please continue your enter"
+		print("you're wrong,please continue your enter")
 	n = n + 1
